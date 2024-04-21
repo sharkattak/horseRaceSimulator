@@ -1,2 +1,2 @@
-# horseRaceGame
+# horseRaceSimulator
 final oop project
