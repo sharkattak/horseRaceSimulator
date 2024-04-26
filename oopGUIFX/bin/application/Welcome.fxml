@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.welcomeController">
+   <children>
+      <ImageView fitHeight="320.0" fitWidth="607.0" layoutX="-4.8" layoutY="103.2" opacity="0.83" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="-5.0" AnchorPane.rightAnchor="-2.0" AnchorPane.topAnchor="103.0">
+         <image>
+            <Image url="@RACE.png" />
+         </image>
+         
+      </ImageView>
+      <Label layoutX="104.0" layoutY="3.0" prefHeight="82.0" prefWidth="416.0" style="-fx-border-color: blue;" text="WELCOME TO THE HORSE RACE GAME" textAlignment="JUSTIFY">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="enterButton" layoutX="340.0" layoutY="85.0" mnemonicParsing="false" onAction="#displayManualPage" style="-fx-background-color: skyblue; -fx-border-color: black;" text="Enter" />
+      <TextField fx:id="nameTextField" layoutX="189.0" layoutY="85.0" style="-fx-background-color: lightblue; -fx-border-color: black;" />
+      <Label layoutX="189.0" layoutY="44.0" prefHeight="46.0" prefWidth="246.0" text="What is your name?">
+         <font>
+            <Font size="8.0" />
+         </font></Label>
+   </children>
+</AnchorPane>
